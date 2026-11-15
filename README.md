@@ -47,7 +47,7 @@ webhook-processor/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/ayman-ramadan/Webhook-Processor/tree/main
 cd webhook-processor
 ```
 
