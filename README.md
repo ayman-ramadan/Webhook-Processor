@@ -127,16 +127,12 @@ The application is deployed on AWS EC2 using Docker and Docker Compose.
 
 **Public API URL:**
 
-http://51.20.9.102:8000
-
-**Swagger Documentation:**
-
 http://51.20.9.102:8000/docs
 
 **Live Endpoints:**
 
 - POST http://51.20.9.102:8000/webhook
-- GET http://51.20.9.102:8000/alerts
+- GET [http://51.20.9.102:8000/alerts](http://51.20.9.102:8000/docs#/default/get_alerts_alerts_get)
 
 ## Storage
 
