@@ -63,7 +63,7 @@ pip install -r requirements.txt
 python -m uvicorn main:app --reload
 ```
 
-The API will be available at:
+The API will be available locally at:
 
 http://localhost:8000
 
