@@ -142,22 +142,4 @@ Processed alerts remain available while the application process is running. Rest
 
 ## Deployment Architecture
 
-External System
-    ↓
-    
-POST /webhook
-    ↓
-    
-FastAPI
-    ↓
-    
-AlertService
-    ↓
-    
-3-Second Processing Delay
-    ↓
-    
-In-Memory Storage
-    ↓
-    
-GET /alerts
+External System -> POST /webhook -> FastAPI -> AlertService -> 3-Second Processing Delay -> In-Memory Storage -> GET /alerts
